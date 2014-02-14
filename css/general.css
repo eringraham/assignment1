@@ -19,9 +19,82 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
+    font-family: Avant Garde, Century Gothic, Helvetica, sans-serif;
 }
 
 img {
 	width: 100%;
     display: block;
 }
+
+body { 
+    margin: 0;
+    padding: 0;    
+}
+
+article {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+h1 {
+    margin: 4rem 0 2;
+    font-weight: normal;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #cc0033;
+    color: white;     
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    color: #cc0033;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+p,
+ol,
+ul {
+    padding: 0 3rem 0;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+ul {
+    line-height: 1.75rem;
+}
+
+figcaption {
+    text-align: right;
+    font-size: .75rem;
+    font-style: italic;
+    color: #cc0033;
+}
+
+footer p {
+    padding: 5% 0 5%;
+    background-color: #cc0033;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-align: left; 
+    font-style: italic;
+}
+
+
+
+
+    
+    
+    
+    
+    
+
+    
+
