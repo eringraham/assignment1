@@ -19,12 +19,27 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
-    font-family: Avant Garde, Century Gothic, Helvetica, sans-serif;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    background-image: url(../images/stripes2.jpg);
+    background-position:center;
+    background-repeat:repeat;
 }
 
 img {
 	width: 100%;
     display: block;
+}
+
+h1,
+h2 {
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+}
+
+.billboard{
+    overflow:hidden;
+    background-image:url(../images/polkadots.jpg);
+    background-size: 4rem;
+    margin: 0 0 2rem;
 }
 
 body { 
@@ -40,8 +55,8 @@ article {
 
 h1 {
     margin: 4rem 0 2;
-    font-weight: normal;
-    font-size: 2rem;
+    font-weight: bold;
+    font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
     background-color: #cc0033;
@@ -54,6 +69,7 @@ h2 {
     color: #cc0033;
     text-transform: uppercase;
     font-size: 1.5rem;
+    border-bottom: dotted;
 }
 
 p,
@@ -61,11 +77,35 @@ ol,
 ul {
     padding: 0 3rem 0;
     font-size: 1rem;
-    line-height: 1.25rem;
+    line-height: 1.75rem;
 }
 
-ul {
-    line-height: 1.75rem;
+.dropcap:first-letter {
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif; 
+    font-size: 4rem;
+    font-weight: normal;
+    float: left;
+    margin: 1rem 1rem -.5rem 0;
+    color: #cc0033;
+}
+
+blockquote {
+    color: #cc0033;
+    font-style: italic;
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 2rem;
+    float: left;
+    margin: 0 -1.5rem 0;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 2rem;
+    float: right;
+    margin: 0 1rem 0;
 }
 
 figcaption {
