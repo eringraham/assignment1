@@ -16,11 +16,10 @@ html {
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
-    
+	text-size-adjust: 100%; 
     font-size: 100%;
     font-family: Geneva, Tahoma, Verdana, sans-serif;
-    background-image: url(../images/stripes2.jpg);
+    background-image: url(../images/backgroundweb.jpg);
     background-position:center;
     background-repeat:repeat;
 }
@@ -35,10 +34,26 @@ h2 {
     font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
 }
 
+header{
+    background-color: white;
+}
+
+.logo{
+    height: 4.5rem;
+    width: auto;
+    margin: .5rem 5%;
+}
+
+.logofooter{
+    height: 3rem;
+    width: auto;
+    float:right;
+}
+
 .billboard{
     overflow:hidden;
-    background-image:url(../images/polkadots.jpg);
-    background-size: 4rem;
+    background-image:url(../images/cupcake-pattern1.jpg);
+    background-size: 18rem;
     margin: 0 0 2rem;
 }
 
@@ -108,6 +123,10 @@ blockquote p:after {
     margin: 0 1rem 0;
 }
 
+figure img{
+    border: solid .15rem black;
+}
+
 figcaption {
     text-align: right;
     font-size: .75rem;
@@ -126,15 +145,3 @@ footer a {
     text-align: left; 
     font-style: italic;
 }
-
-
-
-
-    
-    
-    
-    
-    
-
-    
-
